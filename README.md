@@ -1,6 +1,5 @@
 Awesome Courses
----
-
+=====
 
 > List of awesome Computer Science courses scoured from university pages across the web
 
@@ -13,20 +12,25 @@ Table of Contents
 - [CS Theory](#cs-theory)
 - [Introduction to CS](#introduction-to-cs)
 - [Misc](#misc)
+- [Contributing](#contributing)
 
 Courses
 ---
 
 ### Systems
-
-- [CS425](https://courses.engr.illinois.edu/cs425/) **Distributed Systems** *Univ of Illinois, Urbana-Champaign*
+- [18-447](http://www.ece.cmu.edu/~ece447/s14/doku.php?id=start) **Introduction to Computer Architecture** *CMU*
+  - Very comprehensive material on Computer Architecture - definitely more than just "introduction". Online material is very user-friendly, even the recitation videos available online. This is the Spring'14 version by professor [Onur Mutlu ](http://users.ece.cmu.edu/~omutlu/).
+  - [Lectures and Recitation](http://www.ece.cmu.edu/~ece447/s14/doku.php?id=schedule) 
+  - [Homeworks](http://www.ece.cmu.edu/~ece447/s14/doku.php?id=homeworks) 7 HWs with answer set as well
+  - [Readings] (http://www.ece.cmu.edu/~ece447/s14/doku.php?id=readings)
+- [CS425](https://courses.engr.illinois.edu/cs425/) **Distributed Systems** *Univ of Illinois, Urbana-Champaign* 
   - Brilliant set of lectures and reading material covering fundamental concepts in distributed systems such as Vector clocks, Consensus and Paxos.
   - [Lectures](http://recordings.engineering.illinois.edu/ess/portal/section/11ae0191-49e2-4c34-95fd-fc65355262d4)
   - [Assignments](https://courses.engr.illinois.edu/cs425/assignments.html)
 - [CS241](https://courses.engr.illinois.edu/cs241/) **Systems Programming** *Univ of Illinois, Urbana-Champaign*
   - Learn how to write programs that take full advantage of operating system support in the C programming language 
   - [Assignments](https://courses.engr.illinois.edu/cs241/mp.html)
-- [CS 452](https://www.youtube.com/playlist?list=PL08D9FA018A965057&spfreload=10) **Real-Time Programming** *University of Waterloo*
+- [CS 452](http://www.cgl.uwaterloo.ca/~wmcowan/teaching/cs452/s12/) **Real-Time Programming** *University of Waterloo*
   - Write a real-time OS microkernel in C, and application code to operate a model train set in response to real-time sensor information. The communication with the train set runs at 2400 baud so it takes about 61 milliseconds to ask all of the sensors for data about the train's possible location.  This makes it particularly challenging because a train can move about 3 centimeters in that time. One of the most challenging and time-consuming courses at the University of Waterloo.
   - [Assignments](http://www.cgl.uwaterloo.ca/~wmcowan/teaching/cs452/s12/assignments/index.html)
   - [Lecture notes](http://www.cgl.uwaterloo.ca/~wmcowan/teaching/cs452/s12/notes/index.html)
@@ -37,6 +41,10 @@ Courses
   - MIT's graduate-level DS course with a focus on fault tolerance, replication, and consistency, all taught via awesome lab assignments in Golang! 
   - [Assignments](http://css.csail.mit.edu/6.824/2014/labs/) - Just do `git clone git://g.csail.mit.edu/6.824-golabs-2014 6.824`
   - [Lectures](http://css.csail.mit.edu/6.824/2014/schedule.html)
+- [6.828](http://pdos.csail.mit.edu/6.828/2014/) **Operating Systems** *MIT*
+  - MIT's operating systems course focusing on the fundamentals of OS design including booting, memory management, environments, file systems, multitasking, and more. In a series of lab assignments, you will build JOS, an OS exokernel written in C.
+  - [Assignments](http://pdos.csail.mit.edu/6.828/2014/labguide.html)
+  - [Lectures](http://pdos.csail.mit.edu/6.828/2014/schedule.html)
 - [SPAC](http://homes.cs.washington.edu/~djg/teachingMaterials/spac/) **Parallelism and Concurrency** *Univ of Washington*
   - Technically not a course nevertheless an awesome collection of materials used by Prof Dan Grossman to teach parallelism and concurrency concepts to sophomores at UWash
 - [15-749](http://www.andrew.cmu.edu/course/15-749/) **Engineering Distributed Systems** *Carnegie-Mellon University*
@@ -55,12 +63,15 @@ Courses
   - A course that is mostly about writing programs against the UNIX API, covering all of the basic parts of the kernel interface and libraries, including files, processes, terminal control, signals, and threading. 
 - [CSCI 493.75](http://compsci.hunter.cuny.edu/~sweiss/course_materials/csci493.65/csci493.65_spr14.php) **Parallel Computing** *CUNY Hunter College*
   - The course is an introduction to parallel algorithms and parallel programming in C and C++, using the Message Passing Interface (MPI) and the OpenMP application programming interface. It also includes a brief introduction to parallel architectures and interconnection networks. It is both theoretical and practical, including material on design methodology, performance analysis, and mathematical concepts, as well as details on programming using MPI and OpenMP.
-- [CS 107](https://www.youtube.com/playlist?list=PL08D9FA018A965057&spfreload=10) **Computer Organization & Systems** *Stanford University*
-  - CS107 is the third course in Stanford's introductory programming sequence. The course will work from the C programming language down to the microprocessor to de-mystify the machine. With a complete understanding of how computer systems execute programs and manipulate data, you will become a more effective programmer, especially in dealing with issues of debugging, performance, portability, and robustness. Topics covered include: the C programming language, data representation, machine-level code, computer arithmetic, elements of code compilation, optimization of memory and runtime performance, and memory organization and management.
+- [CS 107](http://web.stanford.edu/class/cs107/index.html) **Computer Organization & Systems** *Stanford University*
+  - CS107 is the third course in Stanford's introductory programming sequence. The course will work from the C programming language down to the microprocessor to de-mystify the machine. With a complete understanding of how computer systems execute programs and manipulate data, you will become a more effective programmer, especially in dealing with issues of debugging, performance, portability, and robustness. 
+  - [Lecture Videos](https://www.youtube.com/playlist?list=PL08D9FA018A965057&spfreload=10)
   - [Assignments](http://web.stanford.edu/class/cs107/assignments.html)
 - [ECE 459](http://patricklam.ca/p4p/) **Programming for Performance** *University of Waterloo*
   - Learn techniques for profiling, rearchitecting, and implementing software systems that can handle industrial-sized inputs, and to design and build critical software infrastructure. Learn performance optimization through parallelization, multithreading, async I/O, vectorization and GPU programming, and distributed computing.
   - [Lecture slides](http://patricklam.ca/p4p/notes/)
+
+-------
 
 ### Programming Languages / Compilers
 - [CSE341](http://courses.cs.washington.edu/courses/cse341/14sp/) **Programming Languages** *University of Washington*
@@ -73,7 +84,7 @@ Courses
   - [Assignments](http://www.cs.princeton.edu/~dpw/courses/cos326-12/assignments.php)
 - [CIS194](http://www.seas.upenn.edu/~cis194/) **Introduction to Haskell** *Penn Engineering*
   - Explore the joys of functional programming, using Haskell as a vehicle. The aim of the course will be to allow you to use Haskell to easily and conveniently write practical programs.
-  - [Previous](http://www.seas.upenn.edu/~cis194/spring13/index.html) semester also available, with more exercices
+  - [Previous](http://www.seas.upenn.edu/~cis194/spring13/index.html) semester also available, with more exercises
   - [Assignments & Lectures](http://www.seas.upenn.edu/~cis194/lectures.html)
 - [CS240h](http://www.scs.stanford.edu/14sp-cs240h/) **Functional Systems in Haskell** *Stanford University*
   - Building software systems in Haskell
@@ -97,8 +108,23 @@ Courses
   - [Videos](http://recordings.engineering.illinois.edu/ess/portal/section/631edaeb-2a33-4537-b7c8-0c1cba783a4f)
   - [Assignments](https://courses.engr.illinois.edu/cs421/fa2014/mps/index.html)
   - [Exams](https://courses.engr.illinois.edu/cs421/fa2014/exams/index.html)
+- [CS5470](http://matt.might.net/teaching/compilers/spring-2015/) **Compilers** *University of Utah*
+  - If you're a fan of Prof Matt's writing on his [fantastic blog](http://matt.might.net/articles/) you ought to give this a shot. The course covers the design and implementation of compilers, and it explores related topics such as interpreters, virtual machines and runtime systems. Aside from the Prof's witty take on [cheating](http://matt.might.net/teaching/compilers/spring-2015/#collaboration) the page has tons of interesting links on programming languages, parsing and compilers.
+  - [Lecture Notes](https://www.dropbox.com/sh/zanwtoflw4pcfu8/5pdT6axS3y)
+  - [Projects](http://matt.might.net/teaching/compilers/spring-2015/#projects)
+- [CS4610](http://www.cs.virginia.edu/~weimer/4610/) **Programming Languages and Compilers** *University of Virginia*
+  - Course that uses OCaml to teach functional programming and programming language design. Each assignment is a part of an interpreter and compiler for an object-oriented language similar to Java, and you are required to use a different language for each assignment (i.e., choose 4 from Python, JS, OCaml, Haskell, Ruby).
+  - [Lecture Notes](http://www.cs.virginia.edu/~weimer/4610/lectures.html)
+  - [Assignments](http://www.cs.virginia.edu/~weimer/4610/pa.html)
+
+-------
 
 ### Algorithms
+- [CSE-373](http://www3.cs.stonybrook.edu/~skiena/373/) **Analysis of Algorithms** *Stony Brook University* 
+  - Prof Steven Skiena's no stranger to any student when it comes to algorithms. His seminal [book](http://www.algorist.com/) has been touted by many to be best for [getting that job in Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html). In addition, he's also well-known for tutoring students in competitive [programming competitions](http://www.programming-challenges.com/pg.php?page=index). If you're looking to brush up your knowledge on Algorithms, you can't go wrong with this course.
+  - [Lecture Videos](http://www.cs.sunysb.edu/~algorith/video-lectures/)
+- [15-451/651](http://www.cs.cmu.edu/afs/cs/academic/class/15451-f10/www/) **Algorithms** *Carnegie Mellon University*
+  - The required algorithms class that go in depth into all basic algorithms and the proofs behind them. This is one of the heavier algorithms curriculums on this page. Taught by Avrim Blum and Manuel Blum who has a Turing Award due to his contributions to algorithms. Course link includes a very comprehensive set of reference notes by Avrim Blum. 
 - [COS226](http://www.cs.princeton.edu/courses/archive/fall14/cos226/info.php) **Data Structures and Algorithms** *Princeton University*
   - The [popular](https://www.coursera.org/course/algs4partI) algorithms class covering most important algorithms and data structures in use on computers taught by Robert Sedgewick.
   - [Assignments](http://www.cs.princeton.edu/courses/archive/fall14/cos226/assignments.php)
@@ -122,21 +148,52 @@ Courses
   - Algorithms class covering recursion, randomization, amortization, graph algorithms, network flows and hardness. The lecture notes by Prof. Erikson are comprehensive enough to be a book by themselves. Highly recommended!
   - [Lecture Notes](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/notes/all-algorithms.pdf)
   - [Labs and Exams](http://web.engr.illinois.edu/~jeffe/teaching/algorithms/hwex/all-hwex.pdf)
+- [6.854/18.415J](http://courses.csail.mit.edu/6.854/current/) **Advanced Algorithms** *MIT*
+  - Advanced course in algorithms by Dr. David Karger covering topics such as amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms. 
+  - **Register** on [NB](http://nb.mit.edu/subscribe?key=D3a8CYpoO2VcR1ZcfaxmR5KbyjCGXd3INNXvL3mxEakYJ7qGJw) to access the [problem set and lectures](http://nb.mit.edu/). 
+- [6.851](http://courses.csail.mit.edu/6.851/spring14/index.html) **Advanced Data Structures** *MIT*
+  - This is an advanced DS course, you must be done with the [Advanced Algorithms](http://courses.csail.mit.edu/6.854/current/) course before attempting this one.
+  - [Lectures](http://courses.csail.mit.edu/6.851/spring14/lectures/) Contains videos from sp2012 version, but there isn't much difference.
+  - [Assignments](http://courses.csail.mit.edu/6.851/spring14/hmwk.html) contains the calendar as well.
+- [CS 2150](https://github.com/aaronbloomfield/pdr) **Program & Data Representation** *University of Virginia*
+  - This data structures course introduces C++, linked-lists, stacks, queues, trees, numerical representation, hash tables, priority queues, heaps, huffman coding, graphs, and x86 assembly.
+  - [Lectures](http://aaronbloomfield.github.io/pdr/slides/)
+  - [Assignments](http://aaronbloomfield.github.io/pdr/labs/)
+- [ECS 122A](http://web.cs.ucdavis.edu/~gusfield/cs122f10/) **Algorithm Design and Analysis** *UC Davis*
+  - Taught by [Dan Gusfield](http://web.cs.ucdavis.edu/~gusfield/) in 2010, this course is an undergraduate introduction to algorithm design and analysis. It features traditional topics, such as Big Oh notation, as well as an importance on implementing specific algorithms. Also featured are sorting (in linear time), graph algorithms, depth-first search, string matching, dynamic programming, NP-completeness, approximation, and randomization.
+  - [Syllabus](http://web.cs.ucdavis.edu/~gusfield/cs122f10/syll122.pdf)
+  - [Lecture Videos](http://web.cs.ucdavis.edu/~gusfield/cs122f10/videolist.html)
+  - [Assignments](http://web.cs.ucdavis.edu/~gusfield/cs122f10/)
+- [ECS 222A](http://web.cs.ucdavis.edu/~gusfield/cs222w11/) **Graduate Level Algorithm Design and Analysis** *UC Davis*
+  - This is the graduate level complement to the ECS 122A undergraduate algorithms course by [Dan Gusfield](http://web.cs.ucdavis.edu/~gusfield/) in 2011. It assumes an undergrad course has already been tken in algorithms, and, while going over some undergraduate algorithms topics, focuses more on increasingly complex and advanced algorithms.
+  - [Lecture Videos](http://web.cs.ucdavis.edu/~gusfield/cs222f07/videolist.html)
+  - [Syllabus](http://web.cs.ucdavis.edu/~gusfield/cs222w11/syll11.pdf)
+  - [Assignments](http://web.cs.ucdavis.edu/~gusfield/cs222w11/)
+
+-------
+
 ### CS Theory
 - [CIS 500](http://www.seas.upenn.edu/~cis500/cis500-f14/index.html) **Software Foundations** *University of Pennsylvania*
   - An introduction to formal verification of software using the Coq proof assistant. Topics include basic concepts of logic, computer-assisted theorem proving, functional programming, operational semantics, Hoare logic, and static type systems.
   * [Lectures and Assignments](http://www.seas.upenn.edu/~cis500/cis500-f14/index.html#schedule)
   - [Textbook](http://www.cis.upenn.edu/~bcpierce/sf/current/index.html)
 - [CS276](http://www.cs.berkeley.edu/~sanjamg/classes/cs276-fall14/) **Foundations of Cryptography** *UC Berkeley*
-  - This course discusses the complexity-theory foundations of modern cryptography, and looks at recent results in the field such as Fully Homomorphc Encryption, Indistinguishability Obfuscation, MPC and so on.
+  - This course discusses the complexity-theory foundations of modern cryptography, and looks at recent results in the field such as Fully Homomorphic Encryption, Indistinguishability Obfuscation, MPC and so on.
 - [CS278](http://www.cs.berkeley.edu/~luca/cs278-08/) **Complexity Theory** *UC Berkeley*
   - An graduate level course on complexity theory that introduces P vs NP, the power of randomness, average-case complexity, hardness of approximation, and so on.
-- [6.854/18.415J](http://courses.csail.mit.edu/6.854/current/) **Advanced Algorithms** *MIT*
-  - This is an advanced course by the very famous Dr. David Karger (You might have found him active on Quora some of the times).
-  - Techniques to be covered include amortization, randomization, fingerprinting, word-level parallelism, bit scaling, dynamic programming, network flow, linear programming, fixed-parameter algorithms, and approximation algorithms. Domains include string algorithms; network optimization; parallel algorithms; computational geometry; online algorithms; external memory, cache, and streaming algorithms; and data structures.
-  - Create an account on NB [here](http://nb.mit.edu/subscribe?key=D3a8CYpoO2VcR1ZcfaxmR5KbyjCGXd3INNXvL3mxEakYJ7qGJw) to access the problem set and lectures.
+- [CS103](http://web.stanford.edu/class/cs103/) **Mathematical Foundations of Computing** *Stanford University*
+  -  CS103 is a first course in discrete math, computability theory, and complexity theory. In this course, we'll probe the limits of computer power, explore why some problems are harder to solve than others, and see how to reason with mathematical certainty.
+  -  Links to all lectures notes and assignments are directly on the course page
+- [CS 173](https://courses.engr.illinois.edu/cs173/fa2014/A-lecture/index.html) **Discrete Structures** *Univ of Illinois Urbana-Champaign*
+  - This course is an introduction to the theoretical side of computer science. In it, you will learn how to construct proofs, read and write literate formal mathematics, get a quick introduction to key theory topics and become familiar with a range of standard mathematics concepts commonly used in computer science. 
+  - [Textbook](http://web.engr.illinois.edu/~mfleck/building-blocks/) Written by the professor. Includes Instructor's Guide.
+  - [Assignments](https://courses.engr.illinois.edu/cs173/fa2014/A-lecture/Homework/index.html)
+  - [Exams](https://courses.engr.illinois.edu/cs173/fa2014/A-lecture/Exams/index.html)
+
+-------
 
 ### Introduction to CS
+
 - [CS 10](https://inst.eecs.berkeley.edu/~cs10/fa14/) **The Beauty and Joy of Computing** *UC Berkeley*
   - CS10 is UCB's introductory computer science class, taught using the beginners' drag-and-drop language [Snap*!*](http://snap.berkeley.edu) (based on Scratch by MIT).
   - [Curriculum](http://bjc.berkeley.edu)
@@ -160,8 +217,18 @@ Courses
   - Topics: Advanced memory management features of C and C++; the differences between imperative and object-oriented paradigms. The functional paradigm (using LISP) and concurrent programming (using C and C++)
   - [Lectures](http://see.stanford.edu/see/lecturelist.aspx?coll=2d712634-2bf1-4b55-9a3a-ca9d470755ee)
   - [Assignments](http://see.stanford.edu/see/materials/icsppcs107/assignments.aspx)
+- [6.001](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/index.htm) **Structure and Interpretation of Computer Programs** *MIT*  
+  - Teaches big-picture computing concepts using the Scheme programming language. Students will implement programs in a variety of different programming paradigms (functional, object-oriented, logical). Heavy emphasis on function composition, code-as-data, control abstraction with continuations, and syntactic abstraction through macros. An excellent course if you are looking to build a mental framework on which to hang your programming knowledge.
+  - [Lectures](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures)
+  - [Textbook](http://mitpress.mit.edu/sicp/full-text/book/book.html) ([epub](https://github.com/sarabander/sicp), [pdf](https://github.com/sarabander/sicp-pdf))
+  - [IDE](http://www.neilvandyke.org/racket-sicp/)
+
+-------
 
 ### Misc
+- [CS 378](https://github.com/ut-cs378-vision-2014fall/course-info) **3D Reconstruction with Computer Vision** *UTexas*
+  - In this lab-based class, we'll dive into practical applications of 3D reconstruction, combining hardware and software to build our own 3D environments from scratch. We'll use open-source frameworks like OpenCV to do the heavy lifting, with the focus on understanding and applying state-of-the art approaches to geometric computer vision 
+  - [Lectures](https://github.com/ut-cs378-vision-2014fall/course-info/tree/master/meeting-notes)
 - [CS 5150](http://www.cs.cornell.edu/courses/CS5150/2014fa/overview.html) **Software Engineering** *Cornell University*
   -  Introduction to the practical problems of specifying, designing, building, testing, and delivering reliable software systems
   - [Lectures](http://www.cs.cornell.edu/courses/CS5150/2014fa/materials.html)
@@ -189,3 +256,28 @@ Courses
   - An introductory course in computer vision and computational photography focusing on four topics: image features, image morphing, shape matching, and image search.
   - [Lectures](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=Schedule)
   - [Assignments](https://alliance.seas.upenn.edu/~cis581/wiki/index.php?title=Projects)
+- [EECS 588](https://www.eecs.umich.edu/courses/eecs588/) **Computer & Network Security** *University of Michigan*
+  - Taught by [J. Alex Halderman](https://jhalderm.com/) who has analyzed the security of Electronic Voting Machines in the [US](https://jhalderm.com/pub/papers/dcvoting-fc12.pdf) and [over](https://jhalderm.com/pub/papers/ivoting-ccs14.pdf) [seas](https://jhalderm.com/pub/papers/evm-ccs10.pdf).
+  - This intensive research seminar covers foundational work and current topics in computer systems security.
+  - [Readings](https://www.eecs.umich.edu/courses/eecs588/readings.html)
+- [ICS 314](http://philipmjohnson.github.io/ics314f13/) **Software Engineering** *University of Hawaii*
+  - Taught by [Philip Johnson](http://philipmjohnson.org/)
+  - Introduction to software engineering using the ["Athletic Software Engineering" pedagogy](http://philipmjohnson.org/2013/12/16/athletic-software-engineering-education-initial-results/)
+  - [Modules](http://philipmjohnson.github.io/ics314f13/modules/)
+  - [Learning outcomes](http://philipmjohnson.github.io/ics314f13/outcomes/)
+  - [Readings](http://philipmjohnson.github.io/ics314f13/readings/)
+  - [Experiences](http://philipmjohnson.github.io/ics314f13/experiences/)
+  - [Assessments](http://philipmjohnson.github.io/ics314f13/assessments/)
+- [COMS 4771](http://www.cs.columbia.edu/~jebara/4771/index.html) **Machine Learning** *Columbia University*
+  - Course taught by [Tony Jebara](http://www.cs.columbia.edu/~jebara/resume.html) introduces topics in Machine Learning for both generative and discriminative estimation. Material will include least squares methods, Gaussian distributions, linear classification, linear regression, maximum likelihood, exponential family distributions, Bayesian networks, Bayesian inference, mixture models, the EM algorithm, graphical models, hidden Markov models, support vector machines, and kernel methods.
+  - [Lectures and Assignments](http://www.cs.columbia.edu/~jebara/4771/handouts.html)
+- [CS 75](http://ocw.tufts.edu/Course/75)  **Introduction to Game Development** *Tufts University*
+  - The course taught by [Ming Y. Chow](http://mchow01.github.io) teaches game development initially in PyGame through Python, before moving on to addressing all facets of game development. Topics addressed include game pysics, sprites, animation, game development methodology, sound, testing, MMORPGs and online games, and addressing mobile development in Android, HTML5, and iOS. Most to all of the development is focused on PyGame for learning principles
+  - [Text Lectures](http://ocw.tufts.edu/Course/75/Learningunits)
+  - [Assignments](http://ocw.tufts.edu/Course/75/Assignments)
+  - [Labs](http://ocw.tufts.edu/Course/75/Labs)
+
+-----
+
+### Contributing
+Have a few courses in mind that you think are awesome and would fit in this list? Feel free to send a [pull request](https://github.com/prakhar1989/awesome-courses/pulls). However, do note that I'm not keen on adding popular courses (such as MOOCs / MIT OCW) as there are services like [ClassCentral](https://www.class-central.com/) doing a great job of aggregation. This list is ideally for courses which are relatively unknown and make their material (assignments, lectures, exams etc.) available online for free.
