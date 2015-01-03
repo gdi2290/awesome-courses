@@ -116,10 +116,17 @@ Courses
   - Course that uses OCaml to teach functional programming and programming language design. Each assignment is a part of an interpreter and compiler for an object-oriented language similar to Java, and you are required to use a different language for each assignment (i.e., choose 4 from Python, JS, OCaml, Haskell, Ruby).
   - [Lecture Notes](http://www.cs.virginia.edu/~weimer/4610/lectures.html)
   - [Assignments](http://www.cs.virginia.edu/~weimer/4610/pa.html)
+- [clojure](http://mooc.cs.helsinki.fi/clojure) **Functional Programming with Clojure** *University of Helsinki*
+  - The course is an introduction to functional programming with a dynamically typed language Clojure. We start with an introduction to Clojure; its syntax and development environment. Clojure has a good selection of data structures and we cover most of them. We also go through the basics of recursion and higher-order functions. The course material is in English.
+  - [Github Page](http://iloveponies.github.io/120-hour-epic-sax-marathon/index.html)
 
 -------
 
 ### Algorithms
+- [6.INT](http://courses.csail.mit.edu/iap/interview/index.php) **Hacking a Google Interview** *MIT*
+  - This course taught in the MIT Independent Activities Period in 2009 goes over common solution to common interterview questions for software engineer interviews at highly selective companies like Apple, Google, and Facebook. They cover time complexity, hash tables, binary search trees, and other common algorithm topics you should have already covered in a different course, but goes more in depth on things you wouldn't otherwise learn in class- like bitwise logic and problem solving tricks.
+  - [Handouts](http://courses.csail.mit.edu/iap/interview/materials.php)
+  - [Topics Covered](http://courses.csail.mit.edu/iap/interview/calendar.php)
 - [CSE-373](http://www3.cs.stonybrook.edu/~skiena/373/) **Analysis of Algorithms** *Stony Brook University* 
   - Prof Steven Skiena's no stranger to any student when it comes to algorithms. His seminal [book](http://www.algorist.com/) has been touted by many to be best for [getting that job in Google](http://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html). In addition, he's also well-known for tutoring students in competitive [programming competitions](http://www.programming-challenges.com/pg.php?page=index). If you're looking to brush up your knowledge on Algorithms, you can't go wrong with this course.
   - [Lecture Videos](http://www.cs.sunysb.edu/~algorith/video-lectures/)
@@ -276,6 +283,7 @@ Courses
   - [Text Lectures](http://ocw.tufts.edu/Course/75/Learningunits)
   - [Assignments](http://ocw.tufts.edu/Course/75/Assignments)
   - [Labs](http://ocw.tufts.edu/Course/75/Labs)
+
 
 -----
 
