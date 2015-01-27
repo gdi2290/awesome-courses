@@ -53,7 +53,7 @@ Courses
 	- [Crowd Sourced Book](https://github.com/angrave/SystemProgramming/wiki)
 - [CS 425](https://courses.engr.illinois.edu/cs425/fa2014/index.html) **Distributed Systems** *Univ of Illinois, Urbana-Champaign* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" />
 	- Brilliant set of lectures and reading material covering fundamental concepts in distributed systems such as Vector clocks, Consensus and Paxos. This is the 2014 version by Prof Indranil Gupta.
-	- [Lectures](http://recordings.engineering.illinois.edu/ess/portal/section/11ae0191-49e2-4c34-95fd-fc65355262d4)
+	- [Lectures](https://courses.engr.illinois.edu/cs425/fa2014/lectures.html)
 	- [Assignments](https://courses.engr.illinois.edu/cs425/assignments.html)
 - [CS 452](http://www.cgl.uwaterloo.ca/~wmcowan/teaching/cs452/s12/) **Real-Time Programming** *University of Waterloo*  <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" /> 
 	- Write a real-time OS microkernel in C, and application code to operate a model train set in response to real-time sensor information. The communication with the train set runs at 2400 baud so it takes about 61 milliseconds to ask all of the sensors for data about the train's possible location.  This makes it particularly challenging because a train can move about 3 centimeters in that time. One of the most challenging and time-consuming courses at the University of Waterloo.
@@ -307,6 +307,12 @@ Courses
 	- Taught by one of the leading experts on Machine Learning - **Tom Mitchell**
 	- [Lectures](http://www.cs.cmu.edu/~tom/10701_sp11/lectures.shtml)
 	- [Project Ideas and Datasets](http://www.cs.cmu.edu/~tom/10701_sp11/proj.shtml)
+- [CS 109](http://cs109.github.io/2014/) **Data Science** *Harvard University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4da.png" width="20" height="20" alt="Readings" />
+	- Learning from data in order to gain useful predictions and insights. This course introduces methods for five key facets of an investigation: data wrangling, cleaning, and sampling to get a suitable data set; data management to be able to access big data quickly and reliably; exploratory data analysis to generate hypotheses and intuition; prediction based on statistical methods such as regression and classification; and communication of results through visualization, stories, and interpretable summaries.
+	- [Lectures](http://cm.dce.harvard.edu/2015/01/14328/publicationListing.shtml)
+	- [Slides](http://cs109.github.io/2014/pages/schedule.html)
+	- [Labs and Assignments](http://cs109.github.io/2014/pages/homework.html)
+	- [2013 Lectures](http://cm.dce.harvard.edu/2014/01/14328/publicationListing.shtml) *(slightly better)*
 - [COMS 4771](http://www.cs.columbia.edu/~jebara/4771/index.html) **Machine Learning** *Columbia University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" />
 	- Course taught by [Tony Jebara](http://www.cs.columbia.edu/~jebara/resume.html) introduces topics in Machine Learning for both generative and discriminative estimation. Material will include least squares methods, Gaussian distributions, linear classification, linear regression, maximum likelihood, exponential family distributions, Bayesian networks, Bayesian inference, mixture models, the EM algorithm, graphical models, hidden Markov models, support vector machines, and kernel methods.
 	- [Lectures and Assignments](http://www.cs.columbia.edu/~jebara/4771/handouts.html)
@@ -338,6 +344,11 @@ Courses
 	- This is a course on how to be a hacker. Your first four homework assignments walk you through the process of building your own unix shell. You'll be developing it as an open source project, and you will collaborate with each other at various points.
 	- [Github Page](https://github.com/mikeizbicki/ucr-cs100)
 	- [Assignments](https://github.com/mikeizbicki/ucr-cs100/tree/2015winter/assignments)
+- [CS 193p](https://itunes.apple.com/us/course/developing-ios-7-apps-for/id733644550) **Developing Applications for iOS** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" /><img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" />
+    - Updated for iOS 7. Tools and APIs required to build applications for the iPhone and iPad platform using the iOS SDK. User interface designs for mobile devices and unique user interactions using multi-touch technologies. Object-oriented design using model-view-controller paradigm, memory management, Objective-C programming language. Other topics include: object-oriented database API, animation, multi-threading and performance considerations.
+    - Prerequisites: C language and object-oriented programming experience
+    - Recommended: [Programming Abstractions](https://itunes.apple.com/us/course/programming-abstractions/id495054099)
+    - [Updated courses for iOS8 - Swift](https://itunes.apple.com/us/course/developing-ios-8-apps-swift/id961180099)
 - [CS 223A](http://see.stanford.edu/see/courseinfo.aspx?coll=86cc8662-f6e4-43c3-a1be-b30d1d179743) **Introduction to Robotics** *Stanford University* <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4f9.png" width="20" height="20" alt="Lecture Videos" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4bb.png" width="20" height="20" alt="Assignments" /> <img src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f4dd.png" width="20" height="20" alt="Lecture Notes" />
 	- The purpose of this course is to introduce you to basics of modeling, design, planning, and control of robot systems. In essence, the material treated in this course is a brief survey of relevant results from geometry, kinematics, statics, dynamics, and control.
 	- [Lectures](http://see.stanford.edu/see/lecturelist.aspx?coll=86cc8662-f6e4-43c3-a1be-b30d1d179743)
@@ -379,6 +390,3 @@ Courses
 	- [Lectures](http://www.schneems.com/ut-rails/)
 	- [Assignments](http://www.schneems.com/ut-rails/)
 	- [Videos](https://www.youtube.com/playlist?list=PL7A85FD7803A8CB1F)
-
------
-
